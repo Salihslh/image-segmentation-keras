@@ -2,6 +2,12 @@ import keras
 from keras.models import *
 from keras.layers import *
 
+import segmentation_models as sm
+
+sm.set_framework('tf.keras')
+
+sm.framework()
+
 from .config import IMAGE_ORDERING
 
 if IMAGE_ORDERING == 'channels_first':
