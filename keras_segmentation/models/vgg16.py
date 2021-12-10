@@ -1,7 +1,7 @@
 import keras
 from tensorflow.keras.models import *
 from tensorflow.keras.layers import *
-!pip install segmentation_models
+pip install segmentation_models
 import segmentation_models as sm
 
 sm.set_framework('tf.keras')
